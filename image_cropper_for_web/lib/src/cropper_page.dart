@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:image_cropper_platform_interface/image_cropper_platform_interface.dart';
@@ -39,10 +40,11 @@ class CropperPage extends StatelessWidget {
         child: Stack(
           alignment: Alignment.bottomCenter,
           children: [
-            SizedBox(
+            Container(
               width: cropperContainerWidth,
               height: cropperContainerHeight,
               child: cropper,
+              margin: EdgeInsets.all(20),
             ),
             Padding(
               padding:
