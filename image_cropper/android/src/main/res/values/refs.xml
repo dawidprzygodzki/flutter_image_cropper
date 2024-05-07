@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item type="layout" name="com.yalantis.ucrop.R.layout.ucrop_view" tools:override="true">@layout/my_overlay_view</item>
+</resources>
