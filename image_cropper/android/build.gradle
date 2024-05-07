@@ -38,6 +38,6 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.dawidprzygodzki:ucrop:2.2.13'
+        implementation 'com.github.dawidprzygodzki:ucrop:2.2.14'
     }
 }
